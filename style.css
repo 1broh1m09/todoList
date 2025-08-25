@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo {
+  max-width: 750px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.searchPanel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+
+.searchPanel input {
+  width: 595px;
+  padding: 12px 15px;
+  font-size: 18px;
+  border: 1px solid #6c63ff;
+  border-radius: 10px;
+  outline: none;
+}
+
+.inputBox {
+  position: relative;
+  width: fit-content;
+}
+
+.inputBox img {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.send {
+  background-color: #6c63ff;
+  padding: 12px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+}
+
+.monthIcon {
+  background-color: #6c63ff;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form {
+  padding-top: 50px;
+}
+
+
+.solo_note {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #6c63ff;
+  padding-bottom: 5px;
+  margin-top: 40px;
+}
+
+.checkBox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.checkBox input {
+  width: 20px;
+  height: 20px;
+}
+
+.checkBox label {
+  font-size: 20px;
+}
+
+.noteIcons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.noteIcons img {
+  padding: 8px;
+}
+
+.noteIcons img:hover {
+  background-color: #6c63ff;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+}

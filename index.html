@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+  <script defer src="./script.js"></script>
+</head>
+
+<body id="body">
+  <div class="todo">
+    <h1 id="title">TODO LIST</h1>
+    <div class="searchPanel">
+      <div class="inputBox">
+        <input id="search" type="text" placeholder="Search note" />
+        <img src="./search.svg" alt="" />
+      </div>
+      <button id="send" class="send">SEND</button>
+      <img onclick="DarkMode()" class="monthIcon" src="./month.svg" alt="" />
+      <img onclick="LightMode()" class="monthIcon" src="./Vector (4).svg" alt="" />
+    </div>
+    <div id="noteBox" class="form">
+    </div>
+  </div>
+</body>
+
+</html>
